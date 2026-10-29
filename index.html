@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My GitHub Test Site</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 600px;
+      margin: 4rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+      color: #222;
+      text-align: center;
+    }
+    h1 { margin-bottom: 0.25rem; }
+    button {
+      font-size: 1rem;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 6px;
+      background: #2563eb;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover { background: #1d4ed8; }
+    #message { margin-top: 1.5rem; font-size: 1.2rem; }
+  </style>
+</head>
+<body>
+  <h1>Hello, GitHub!</h1>
+  <p>If you can see this page, your test site is working.</p>
+  <button onclick="document.getElementById('message').textContent = 'It works! 🎉'">Click me</button>
+  <p id="message"></p>
+</body>
+</html>
